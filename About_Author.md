@@ -1,31 +1,52 @@
-# About the Author
+### 📄 `About_Author.md`
+
+# 👨‍💻 About the Author
 
 ## Mahmud Hasan
 
-Aspiring Full Stack Web Developer and Student with a passion for building efficient and scalable web applications.
+Aspiring **Backend Developer** and **DevOps Enthusiast** with a focus on building secure, efficient, and scalable backend systems.
 
-### Skills
+---
 
-- Python
-- Django
-- REST API
-- SQL
-- PostgreSQL
-- MySQL
-- JavaScript
-- React
+### 🧠 Skills
 
-### Education
+-   **Backend Development:** Python, Django, Django REST Framework
+    
+-   **Databases:** PostgreSQL, MySQL, SQLite
+    
+-   **API Design:** RESTful architecture, JWT authentication
+    
+-   **DevOps Tools:** Docker, CI/CD, Vercel, GitHub Actions
+    
+-   **Additional Skills:** SQL, HTML, CSS, Javascript, React
+    
 
-- Bachelor of Science (BSc) in Computer Science and Engineering from Northern University Bangladesh
+---
 
-### Interests
+### 🎓 Education
 
-- Web development  
-- Mobile app development  
-- Data Science
+-   **Bachelor of Science (BSc)** in Computer Science and Engineering  
+    **Northern University Bangladesh**
+    
 
-### Connect with Me
+---
 
-- [GitHub](https://github.com/Mahmud-Hasan2024)
-- [LinkedIn](https://www.linkedin.com/in/mahmud-hasan-2a19892a6/)
+### 💡 Interests
+
+-   Backend API development
+    
+-   Cloud and DevOps workflows
+    
+-   Data Science and Machine Learning
+    
+
+---
+
+### 🌐 Connect with Me
+
+-   [GitHub](https://github.com/Mahmud-Hasan2024)
+    
+-   [LinkedIn](https://www.linkedin.com/in/mahmud-hasan-2a19892a6/)
+    
+
+---
