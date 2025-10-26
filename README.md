@@ -210,7 +210,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Author
 
-**Mahmud Hasan**  
+**Mahamud Hasan**  
+Northern University Bangladesh
 
 Learn more about me in my [About Me](About_Author.md) file.
 

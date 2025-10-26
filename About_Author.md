@@ -2,7 +2,7 @@
 
 # 👨‍💻 About the Author
 
-## Mahmud Hasan
+## Mahamud Hasan
 
 Aspiring **Backend Developer** and **DevOps Enthusiast** with a focus on building secure, efficient, and scalable backend systems.
 
