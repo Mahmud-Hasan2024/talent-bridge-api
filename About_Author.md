@@ -18,9 +18,9 @@ Aspiring **Backend Developer** and **DevOps Enthusiast** with a passion for buil
 
 ### 💼 Featured Projects
 
-#### 🍽️ [ByteFeast Restaurant](https://byte-feast-react-difzitpml-mahmud-hasans-projects-8504381b.vercel.app)
+#### 🍽️ [ByteFeast Restaurant](https://byte-feast-react-w8qi.vercel.app/)
 
-- **[Frontend (Live Demo)](https://byte-feast-react-difzitpml-mahmud-hasans-projects-8504381b.vercel.app)** | **[Base API](https://byte-feast-resturant-django-rest-ap.vercel.app/api/v1/)** | **[Swagger Docs](https://byte-feast-resturant-django-rest-ap.vercel.app/swagger/)**
+- **[Frontend (Live Demo)](https://byte-feast-react-w8qi.vercel.app/)** | **[Base API](https://byte-feast-resturant-django-rest-ap.vercel.app/api/v1/)** | **[Swagger Docs](https://byte-feast-resturant-django-rest-ap.vercel.app/swagger/)**
 - **GitHub:** frontend: [Mahmud-Hasan2024/ByteFeast_frontend](https://github.com/Mahmud-Hasan2024/ByteFeast_frontend) | backend: [Mahmud-Hasan2024/ByteFeast-backend](https://github.com/Mahmud-Hasan2024/ByteFeast-backend)
 - **Tech Stack:** React, Django REST Framework, PostgreSQL
 - **Description:** A restaurant management system integrating both frontend and backend with RESTful APIs.
