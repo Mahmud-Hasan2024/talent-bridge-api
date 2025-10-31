@@ -9,46 +9,37 @@ It includes **JWT authentication**, **role-based dashboards**, **Swagger API doc
 
 ## 🚀 Live Demo
 
--   🌍 **Base API:** [https://talent-bridge-api.vercel.app/api/v1/](https://talent-bridge-api.vercel.app/api/v1/)
-    
--   📘 **Swagger Docs:** [https://talent-bridge-api.vercel.app/swagger/](https://talent-bridge-api.vercel.app/swagger/)
-    
+- 🔗 **Production:** [https://talent-bridge.vercel.app/](https://talent-bridge.vercel.app/)
+
+- 🌍 **Base API:** [https://talent-bridge-api.vercel.app/api/v1/](https://talent-bridge-api.vercel.app/api/v1/)
+- 📘 **Swagger Docs:** [https://talent-bridge-api.vercel.app/swagger/](https://talent-bridge-api.vercel.app/swagger/)
 
 ---
 
 ## 🧠 Features
 
--   👤 **Custom User Roles:** Admin, Employer, and Job Seeker
-    
--   💼 **Job Management:** Employers can post, edit, and delete job listings
-    
--   📄 **Applications:** Job Seekers can apply or withdraw job applications
-    
--   ⭐ **Reviews:** Job Seekers can review employers
-    
--   💳 **Payments:** SSLCommerz gateway integration
-    
--   📊 **Dashboards:** Role-based analytics and activity overview
-    
--   🔐 **JWT Authentication (Djoser)**
-    
--   🧾 **Swagger API Docs (drf-yasg)**
-    
--   🧹 **Seed Script:** Automatically populates realistic demo data
-    
+- 👤 **Custom User Roles:** Admin, Employer, and Job Seeker
+- 💼 **Job Management:** Employers can post, edit, and delete job listings
+- 📄 **Applications:** Job Seekers can apply or withdraw job applications
+- ⭐ **Reviews:** Job Seekers can review employers
+- 💳 **Payments:** SSLCommerz gateway integration
+- 📊 **Dashboards:** Role-based analytics and activity overview
+- 🔐 **JWT Authentication (Djoser)**
+- 🧾 **Swagger API Docs (drf-yasg)**
+- 🧹 **Seed Script:** Automatically populates realistic demo data
 
 ---
 
 ## 🧰 Tech Stack
 
-| Component | Technology |
-| --- | --- |
-| Backend | Django, Django REST Framework |
-| Authentication | Djoser + JWT |
-| Database | PostgreSQL / SQLite |
-| Payments | SSLCommerz |
-| API Docs | Swagger (drf-yasg) |
-| Deployment | Vercel |
+| Component      | Technology                    |
+| -------------- | ----------------------------- |
+| Backend        | Django, Django REST Framework |
+| Authentication | Djoser + JWT                  |
+| Database       | PostgreSQL / SQLite           |
+| Payments       | SSLCommerz                    |
+| API Docs       | Swagger (drf-yasg)            |
+| Deployment     | Vercel                        |
 
 ---
 
@@ -121,36 +112,36 @@ Authorization: Bearer <your_token>
 
 ### 🔸 Jobs
 
-| Method | Endpoint | Description |
-| --- | --- | --- |
-| GET | `/jobs/` | List all jobs |
-| POST | `/jobs/` | Create job (Employer only) |
-| GET | `/jobs/{id}/` | Get single job |
-| PATCH | `/jobs/{id}/` | Update job |
-| DELETE | `/jobs/{id}/` | Delete job |
+| Method | Endpoint      | Description                |
+| ------ | ------------- | -------------------------- |
+| GET    | `/jobs/`      | List all jobs              |
+| POST   | `/jobs/`      | Create job (Employer only) |
+| GET    | `/jobs/{id}/` | Get single job             |
+| PATCH  | `/jobs/{id}/` | Update job                 |
+| DELETE | `/jobs/{id}/` | Delete job                 |
 
 ### 🔸 Applications
 
-| Method | Endpoint | Description |
-| --- | --- | --- |
-| GET | `/jobs/{job_pk}/applications/` | List all applications |
-| POST | `/jobs/{job_pk}/applications/` | Apply for a job |
-| DELETE | `/jobs/{job_pk}/applications/{id}/withdraw/` | Withdraw application |
+| Method | Endpoint                                     | Description           |
+| ------ | -------------------------------------------- | --------------------- |
+| GET    | `/jobs/{job_pk}/applications/`               | List all applications |
+| POST   | `/jobs/{job_pk}/applications/`               | Apply for a job       |
+| DELETE | `/jobs/{job_pk}/applications/{id}/withdraw/` | Withdraw application  |
 
 ### 🔸 Accounts
 
-| Method | Endpoint | Description |
-| --- | --- | --- |
-| POST | `/accounts/register/` | Register new user |
-| POST | `/accounts/login/` | Login and obtain JWT |
-| GET | `/accounts/profile/` | Retrieve user profile |
+| Method | Endpoint              | Description           |
+| ------ | --------------------- | --------------------- |
+| POST   | `/accounts/register/` | Register new user     |
+| POST   | `/accounts/login/`    | Login and obtain JWT  |
+| GET    | `/accounts/profile/`  | Retrieve user profile |
 
 ### 🔸 Dashboard
 
-| Method | Endpoint | Description |
-| --- | --- | --- |
-| GET | `/dashboard/` | Dashboard data |
-| GET | `/dashboard/stats/?days=7` | Stats for a given period |
+| Method | Endpoint                   | Description              |
+| ------ | -------------------------- | ------------------------ |
+| GET    | `/dashboard/`              | Dashboard data           |
+| GET    | `/dashboard/stats/?days=7` | Stats for a given period |
 
 ---
 
@@ -171,10 +162,8 @@ python manage.py populate_data
 
 This will:
 
--   Delete existing records
-    
--   Create sample employers, seekers, jobs, and applications
-    
+- Delete existing records
+- Create sample employers, seekers, jobs, and applications
 
 ---
 
@@ -186,13 +175,10 @@ Endpoints are available under `/payments/` (sandbox-ready).
 ---
 
 ## 🧠 Future Improvements
-    
--   Enhance dashboard analytics with charts
-    
--   Implement notification service
-    
--   Expand payment gateway features
-    
+
+- Enhance dashboard analytics with charts
+- Implement notification service
+- Expand payment gateway features
 
 ---
 
